@@ -1,3 +1,7 @@
 {
-  "extends": "next/core-web-vitals"
+  "extends": [
+    "next/core-web-vitals",
+    "@podcodar/eslint-config-next",
+    "@podcodar/eslint-config-typescript"
+  ]
 }
